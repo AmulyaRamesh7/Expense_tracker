@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.header p {
+    margin-top: 5px;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Categories */
+.categories {
+    margin: 20px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Transactions */
+.transactions {
+    margin: 20px;
+}
+
+.transaction {
+    background: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.transaction h4 {
+    margin: 0;
+}
+
+.transaction p {
+    margin: 5px 0;
+    color: gray;
+}
+
+.transaction span {
+    font-weight: bold;
+    float: right;
+}
